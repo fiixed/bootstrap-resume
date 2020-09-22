@@ -16,10 +16,12 @@
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
     <!-- Font Awesome -->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -43,5 +45,31 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="bg"></div>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav nav-fill w-100">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html"
+              ><i class="fas fa-user-circle fa-2x"></i> <br />
+              About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html"
+              ><i class="fas fa-file fa-2x"></i><br />
+              Resume</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"
+              ><i class="fas fa-tablet-alt fa-2x"></i><br />
+              Projects</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
